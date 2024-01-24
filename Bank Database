@@ -37,6 +37,10 @@ FROM bank_products
 WHERE product_type="Checkings"
 OR product_type= "Savings";
 
+--The customer decided they want a savings account with a good interest rate and no monthly fee.
+
+Write another query that uses AND to show the product names that have a "Savings" product type AND have an interest_rate of at least 0.75, AND have no monthly fee. Include the product name and interest rate in your SELECT statement. 
+
 SELECT product_name, interest_rate
 FROM bank_products
 WHERE product_type="Savings"
