@@ -51,7 +51,7 @@ WHERE product_id=1
 
 SELECT email
 FROM cuatomer_subscriptions
-WHERE product_type
+WHERE product_id
 IN (SELECT product_id
 FROM products
 WHERE product_type="Internet");
